@@ -1,0 +1,140 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    /*height: 5000000px;*/
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+#description{
+    font-size: xx-large;
+    font-style: italic;
+}
+#describe{
+    width: 80%;
+}
+#profileimg{
+    float: right;
+    border-radius: 50%;
+}
+#about{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 688px;
+    width: 70%;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.blog-card{
+    background-color: white;
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30vh;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.category{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 2px;
+    width: fit-content;
+}
+h4{
+    margin: 3px;
+}
+p{
+    font-size: 14px;
+}
+.name{
+    font-weight: 800;
+}
+
+.descrip{
+    color: hsl(0, 0%, 42%);
+}
+
+.authname img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.authname{
+    display: flex;
+    flex-direction: row;
+}
+#auth{
+    height: 30px;
+    line-height: 8px;
+}
