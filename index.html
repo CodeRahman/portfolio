@@ -26,18 +26,30 @@
             <h1>Abdurrahman Oyediran</h1>
             <p id="description">Student, Software Engineer, Hacker</p>
             
-            <div>
+            <div onmouseover="bigImg(this)" onmouseout="normalImg(this)">
                 <p id="describe">Hi there! My name is Abdurrahman. I am a Computer Science student at the University of Southern Mississippi . 
-                    In my free time I enjoy gaming, exploring and reading novels!</p>
+                    In my free time, I enjoy gaming, exploring and reading novels!</p>
             </div>
             
         </section>
         
         
         <footer>
-            <p>&copy; 2024 Your Name</p>
+            <p>&copy; 2024 CodeRahman</p>
         </footer>
     </div>
+
+    <script>
+        function bigImg(x) {
+          x.style.color = "brown";
+          
+        }
+        
+        function normalImg(x) {
+          x.style.color = "black";
+          
+        }
+        </script>
     
 
     <script src="scripts.js"></script>
