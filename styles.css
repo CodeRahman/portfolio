@@ -48,11 +48,11 @@ header nav ul li a {
     
 }
 #social div{
-    width: 20%;
-    height: 20%;
     display: inline;
 }
-
+#insta, #github, #stack, #linkedin, #dev{
+    width: 50px;
+}
 
 section {
     padding: 20px;
