@@ -12,7 +12,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    /*height: 5000000px;*/
+    
 }
 
 header {
@@ -38,6 +38,21 @@ header nav ul li a {
     color: white;
     text-decoration: none;
 }
+#social{
+    background-color: #333;
+    color: white;
+    margin: 0 0 0 0;
+    padding-bottom:80px;
+    text-align: center;
+    width: 100%;
+    
+}
+#social div{
+    width: 20%;
+    height: 20%;
+    display: inline;
+}
+
 
 section {
     padding: 20px;
@@ -52,9 +67,9 @@ section {
     font-size: x-large;
 }
 #profileimg{
-    width: 300px;
-    height: 300px;
-    float: right;
+    width: 40%;
+    height: auto;
+    /*float: right;*/
     border-radius: 50%;
 }
 #about{
