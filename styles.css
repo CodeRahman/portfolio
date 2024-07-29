@@ -115,12 +115,19 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.blog-card{
+.project-card{
     background-color: white;
     max-width: 250px;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 30vh;
+    margin: 10px;
+    
+    
+}
+#projects{
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .img {
@@ -129,7 +136,7 @@ footer {
 }
 
 .category{
-    background-color: hsl(47, 88%, 63%);
+    background-color: hsl(162, 76%, 39%);
     border-radius: 2px;
     width: fit-content;
 }
@@ -147,16 +154,7 @@ p{
     color: hsl(0, 0%, 42%);
 }
 
-.authname img{
-    width: 30px;
-    margin-right: 5px;
-}
-
-.authname{
-    display: flex;
-    flex-direction: row;
-}
-#auth{
-    height: 30px;
-    line-height: 8px;
+.projectlink{
+    text-decoration: none;
+    color: black;
 }

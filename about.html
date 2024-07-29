@@ -12,11 +12,11 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" target="_blank">About</a></li>
-                    <li><a href="resume.pdf" target="_blank">Resume</a></li>
-                    <li><a href="projects.html" target="_blank">Projects</a></li>
-                    <li><a href="contact.html" target="_blank">Contact</a></li>
-                    <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="resume.pdf" >Resume</a></li>
+                    <li><a href="projects.html" >Projects</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="gallery.html" >Gallery</a></li>
                 </ul>
             </nav>
         </header>
@@ -50,23 +50,50 @@
                         <p>Hi! A quick little intro about me: I'm passionate about creating a better 
                             tomorrow using technology. My happy place is thinking about internationalization, 
                             dealing with funky edge cases, and building a great user experience.</p>
-            
+                            <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                                tomorrow using technology. My happy place is thinking about internationalization, 
+                                dealing with funky edge cases, and building a great user experience.</p>
+                            
+                            <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                            tomorrow using technology. My happy place is thinking about internationalization, 
+                            dealing with funky edge cases, and building a great user experience.</p>
+                
+                            <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                            tomorrow using technology. My happy place is thinking about internationalization, 
+                            dealing with funky edge cases, and building a great user experience.</p>
+                
+                            <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                                tomorrow using technology. My happy place is thinking about internationalization, 
+                                dealing with funky edge cases, and building a great user experience.</p>
+                
+                                <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                                    tomorrow using technology. My happy place is thinking about internationalization, 
+                                    dealing with funky edge cases, and building a great user experience.</p>
+                
+                                    <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                                        tomorrow using technology. My happy place is thinking about internationalization, 
+                                        dealing with funky edge cases, and building a great user experience.</p>
+                
+                                        <p>Hi! A quick little intro about me: I'm passionate about creating a better 
+                                            tomorrow using technology. My happy place is thinking about internationalization, 
+                                            dealing with funky edge cases, and building a great user experience.</p>
+                            
         </section>
         <section id="social">
             <div >
-               <a href="https://www.instagram.com/chief_rahman/" target="_blank"><img src="insta.png" id="insta"></a>
+               <a href="https://www.instagram.com/chief_rahman/" target="_blank"><img src="insta.png" id="insta" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
             </div>
             <div >
-                <a href="https://github.com/CodeRahman" target="_blank"><img src="github.png" id="github"></a> 
+                <a href="https://github.com/CodeRahman" target="_blank"><img src="github.png" id="github" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
              </div>
              <div >
-                <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank"><img src="stack.png" id="stack"></a> 
+                <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank"><img src="stack.png" id="stack" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
              </div>
              <div >
-                <a href="https://www.linkedin.com/in/oyediranao/" target="_blank"><img src="linkedin.png" id="linkedin"> </a>
+                <a href="https://www.linkedin.com/in/oyediranao/" target="_blank"><img src="linkedin.png" id="linkedin" onmouseover="bigImg(this)" onmouseout="normalImg(this)"> </a>
              </div>
              <div>
-                <a href="https://dev.to/coderahman" target="_blank"><img src="dev.jpg" id="dev"></a>
+                <a href="https://dev.to/coderahman" target="_blank"><img src="dev.jpg" id="dev" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
              </div>
         </section>
         
@@ -76,13 +103,23 @@
     </div>
 
     <script>
+        function colorText(x) {
+          x.style.color = "red";
+          
+        }
+        
+        function uncolorText(x) {
+          x.style.color = "black";
+          
+        }
+
         function bigImg(x) {
-          x.style.color = "brown";
+            x.style.width = "75px";
           
         }
         
         function normalImg(x) {
-          x.style.color = "black";
+          x.style.width = "55px";
           
         }
         </script>

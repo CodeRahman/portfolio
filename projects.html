@@ -7,58 +7,146 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html" target="_blank">About</a></li>
-                <li><a href="resume.html" target="_blank">Resume</a></li>
-                <li><a href="projects.html" target="_blank">Projects</a></li>
-                <li><a href="contact.html" target="_blank">Contact</a></li>
-                <li><a href="gallery.html" target="_blank">Gallery</a></li>
-            </ul>
-        </nav>
-        
-    </header>
-    
-    <section id="projects">
+    <div>
+        <header id="top">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="resume.pdf" >Resume</a></li>
+                    <li><a href="projects.html" >Projects</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="gallery.html" >Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <div class="blog-card">
-                <img src="illustration-article.png" width="100%" class="img">
+        <p>Here is some of the work I have done as a student and web developer</p>
+        <section id="projects">
+            
+            <div class="project-card">
+                <a href="https://coderahman.github.io/tasklist/" class="projectlink" target="_blank">
+                <img src="dispic1.jpeg" width="100%" class="img">
                 <div>
-                  <div class="category"><h4>Learning</h4></div>
-          
-                  <p>Published 21 Dec 2023</p>
-          
-                  <h3 class="name">HTML & CSS foundations</h3>
-          
-                  <p class="descrip">These languages are the backbone of every website, defining structure, 
-                    content, and presentation.</p>
-          
+                    <div class="category"><h4>Category: Webpage</h4></div>
+                    <h3 class="name">Task List Webpage</h3>
+                    <p class="descrip">This is a webpage for creating tasks. Individuals can use it to make a list 
+                    of tasks they want to perform and cross the tasks out as they complete them. It was made with HTML, 
+                    CSS and JavaScript.</p>
+                </a>
                 </div>
-                
-                <div class="authname">
-                  <div><img src="image-avatar.webp"></div>
-                  <div id="auth">
-                    <p>Grey Hooper</p>
-                  </div>
+            </div>  
+        
+        
+            <div class="project-card">
+                <a href="https://coderahman.github.io/memegeneratorchallenge/" class="projectlink" target="_blank">
+                <img src="dispic2.jpeg" width="100%" class="img">
+                <div>
+                    <div class="category"><h4>Category: Webpage</h4></div>
+                    <h3 class="name">Meme Generator Challenge</h3>
+                    <p class="descrip">This is a website where memes, jokes, riddles and quotes can be viewed. 
+                        This website is a challenge as part of a web development course to learn JavaScript and 
+                        HTML with CSS prewritten.</p>
+                </a>
                 </div>
-            </div>    
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
-    
-    
+            </div>  
+        
+        
+            <div class="project-card">
+                <a href="https://coderahman.github.io/sociallinkspage/" class="projectlink" target="_blank">
+                <img src="dispic3.jpeg" width="100%" class="img">
+                <div>
+                    <div class="category"><h4>Category: Webpage</h4></div>
+                    <h3 class="name">Social Links Page</h3>
+                    <p class="descrip">This is a social links page that utilizes HTML and CSS.</p>
+                </a>
+                </div>
+            </div>  
+        
+        
+            <div class="project-card">
+                <a href="https://coderahman.github.io/recipenew/" class="projectlink" target="_blank">
+                <img src="dispic4.jpeg" width="100%" class="img">
+                <div>
+                    <div class="category"><h4>Category: Webpage</h4></div>
+                    <h3 class="name">Recipe Webpage</h3>
+                    <p class="descrip">This is a basic project that showcases simple omelette recipe.
+                        This project makes use of basic HTML and CSS.</p>
+                </a>
+                </div>
+            </div>  
+        
+            <div class="project-card">
+                <a href="https://coderahman.github.io/tasklist/" class="projectlink" target="_blank">
+                <img src="dispic5.jpeg" width="100%" class="img">
+                <div>
+                    <div class="category"><h4>Category: Webpage</h4></div>
+                    <h3 class="name">Task List Webpage</h3>
+                    <p class="descrip">This is a webpage for creating tasks. Individuals can use it to make a list 
+                    of tasks they want to perform and cross the tasks out as they complete them. It was made with HTML, 
+                    CSS and JavaScript.</p>
+                </a>
+                </div>
+            </div>  
+        
+            <div class="project-card">
+                <a href="https://coderahman.github.io/tasklist/" class="projectlink" target="_blank">
+                <img src="dispic6.jpeg" width="100%" class="img">
+                <div>
+                    <div class="category"><h4>Category: Webpage</h4></div>
+                    <h3 class="name">Task List Webpage</h3>
+                    <p class="descrip">This is a basic project that showcases simple omelette recipe.
+                         This project makes use of basic HTML and CSS.</p>
+                </a>
+                </div>
+            </div>  
+            
+        </section>
+        <section id="social">
+            <div >
+               <a href="https://www.instagram.com/chief_rahman/" target="_blank"><img src="insta.png" id="insta" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
+            </div>
+            <div >
+                <a href="https://github.com/CodeRahman" target="_blank"><img src="github.png" id="github" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
+             </div>
+             <div >
+                <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank"><img src="stack.png" id="stack" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
+             </div>
+             <div >
+                <a href="https://www.linkedin.com/in/oyediranao/" target="_blank"><img src="linkedin.png" id="linkedin" onmouseover="bigImg(this)" onmouseout="normalImg(this)"> </a>
+             </div>
+             <div>
+                <a href="https://dev.to/coderahman" target="_blank"><img src="dev.jpg" id="dev" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
+             </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 CodeRahman</p>
+        </footer>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+    <script>
+        function colorText(x) {
+          x.style.color = "red";
+          
+        }
+        
+        function uncolorText(x) {
+          x.style.color = "black";
+          
+        }
+
+        function bigImg(x) {
+            x.style.width = "75px";
+          
+        }
+        
+        function normalImg(x) {
+          x.style.width = "55px";
+          
+        }
+        </script>
+    
 
     <script src="scripts.js"></script>
 </body>
