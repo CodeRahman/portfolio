@@ -18,7 +18,7 @@ body {
 header {
     background-color: #333;
     color: white;
-    
+    position: fixed;
     padding: 10px 0;
     text-align: center;
     width: 100%;
@@ -42,7 +42,7 @@ header nav ul li a {
     background-color: #333;
     color: white;
     margin: 0 0 0 0;
-    padding-bottom:80px;
+    
     text-align: center;
     width: 100%;
     
@@ -52,7 +52,7 @@ header nav ul li a {
     display: inline-block;
 }
 #insta, #github, #stack, #linkedin, #dev{
-    width: 50px;
+    width: 30px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -111,7 +111,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    
     bottom: 0;
     width: 100%;
 }
@@ -121,8 +121,23 @@ footer {
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+}
+
+.aboutme{
+    font-size: large;
+    margin-bottom: 20px;
     
     
+}
+.projectname{
+    margin-top: 50px;
+}
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 .project-card:hover {
