@@ -103,7 +103,16 @@ footer {
 
 /*Project page styles*/
 
+.projectname{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    margin-bottom: 20px;
+}
 #projects{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
