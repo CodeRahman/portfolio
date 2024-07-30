@@ -1,92 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="main-logo.jpeg">
-    <title>CodeRahman | Projects</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="wrapper">
-        <header id="top">
-            <nav>
-                <ul id="pages">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.pdf" target="_blank">Resume</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    
-                </ul>
-            </nav>
-        </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="main-logo.jpeg">
+        <title>CodeRahman | Projects</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="top">
+                <nav>
+                    <ul id="pages">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resume.pdf" target="_blank">Resume</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <main>
-            <div class="projectname">
-                <h2>Projects</h2>
-                
-            </div>
+            <main>
+                <div class="projectname"><h2>Projects</h2></div>
+                <section id="projects">
+                    <a href="https://coderahman.github.io/tasklist/" class="projectlink" target="_blank">
+                        <img src="dispic1.jpeg" width="100%" class="projimg">
+                        <div class="category"><h4>Category: Webpage</h4></div>
+                        <h3 class="name">Task List Webpage</h3>   
+                    </a>
+                    <a href="https://coderahman.github.io/memegeneratorchallenge/" class="projectlink" target="_blank">
+                        <img src="dispic2.jpeg" width="100%" class="projimg">
+                        <div class="category"><h4>Category: Webpage</h4></div>
+                        <h3 class="name">Meme Generator Challenge</h3> 
+                    </a>   
+                    <a href="https://coderahman.github.io/sociallinkspage/" class="projectlink" target="_blank">
+                        <img src="dispic3.jpeg" width="100%" class="projimg">
+                        <div class="category"><h4>Category: Webpage</h4></div>
+                        <h3 class="name">Social Links Page</h3>  
+                    </a>
+                    <a href="https://coderahman.github.io/blogpreviewcard/" class="projectlink" target="_blank">
+                        <img src="dispic5.png" width="100%" class="projimg">
+                        <div class="category"><h4>Category: Webpage</h4></div>
+                        <h3 class="name">Blog Preview</h3>
+                    </a>
+                </section>
+            </main>
             
-            <section id="projects">
-                <a href="https://coderahman.github.io/tasklist/" class="projectlink" target="_blank">
-                    <img src="dispic1.jpeg" width="100%" class="projimg">
-                    <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Task List Webpage</h3>   
-                </a>
-                <a href="https://coderahman.github.io/memegeneratorchallenge/" class="projectlink" target="_blank">
-                    <img src="dispic2.jpeg" width="100%" class="projimg">
-                    <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Meme Generator Challenge</h3> 
-                </a>   
-                <a href="https://coderahman.github.io/sociallinkspage/" class="projectlink" target="_blank">
-                    <img src="dispic3.jpeg" width="100%" class="projimg">
-                    <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Social Links Page</h3>  
-                </a>
-                <a href="https://coderahman.github.io/blogpreviewcard/" class="projectlink" target="_blank">
-                    <img src="dispic5.png" width="100%" class="projimg">
-                    <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Blog Preview</h3>
-                </a>
-            </section>
-        </main>
-        
 
-        <footer>
-            <section id="social">
-                <div >
-                   <a href="https://www.instagram.com/chief_rahman/" target="_blank"><img src="insta.png" id="insta" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
-                </div>
-                <div >
-                    <a href="https://github.com/CodeRahman" target="_blank"><img src="github.png" id="github" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
-                 </div>
-                 <div >
-                    <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank"><img src="stack.png" id="stack" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
-                 </div>
-                 <div >
-                    <a href="https://www.linkedin.com/in/oyediranao/" target="_blank"><img src="linkedin.png" id="linkedin" onmouseover="bigImg(this)" onmouseout="normalImg(this)"> </a>
-                 </div>
-                 <div>
-                    <a href="https://dev.to/coderahman" target="_blank"><img src="dev.jpg" id="dev" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
-                 </div>
-            </section>
-            <p>&copy; 2024 CodeRahman</p>
-        </footer>
-    </div>
-
-    <script>
-        function bigImg(x) {
-            x.style.width = "75px";
-          
-        }
-        
-        function normalImg(x) {
-          x.style.width = "30px";
-          
-        }
-        </script>
-    
-
-    <script src="scripts.js"></script>
-</body>
+            <footer>
+                <section id="social">
+                    <div>
+                    <a href="https://www.instagram.com/chief_rahman/" target="_blank">
+                        <img src="insta.png" id="insta">
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/CodeRahman" target="_blank">
+                            <img src="github.png" id="github">
+                        </a> 
+                    </div>
+                    <div>
+                        <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank">
+                            <img src="stack.png" id="stack">
+                        </a> 
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/oyediranao/" target="_blank">
+                            <img src="linkedin.png" id="linkedin">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://dev.to/coderahman" target="_blank">
+                            <img src="dev.jpg" id="dev">
+                        </a>
+                    </div>
+                </section>
+                <p>&copy; 2024 CodeRahman</p>
+            </footer>
+        </div>
+    </body>
 </html>

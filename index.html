@@ -1,84 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="main-logo.jpeg">
-    <title>CodeRahman | Rahman Zone</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="wrapper">
-        <header id="top">
-            <nav>
-                <ul id="pages">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.pdf" target="_blank">Resume</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="about">
-                <img src="photo1.jpg" id="profileimg">
-                <h1>Abdurrahman Oyediran</h1>
-                <p id="description">Student, Software Engineer, Hacker</p>
-                
-                <div onmouseover="colorText(this)" onmouseout="uncolorText(this)">
-                    <p id="describe">Hi there! My name is Abdurrahman. I am a Computer Science student 
-                        at the University of Southern Mississippi . 
-                        In my free time, I enjoy gaming, exploring and reading novels!</p>
-    
-                        
-                </div>
-                
-            </section>
-        </main>
-        
-        <footer>
-            <section id="social">
-                <div>
-                <a href="https://www.instagram.com/chief_rahman/" target="_blank"><img src="insta.png" id="insta" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
-                </div>
-                <div>
-                    <a href="https://github.com/CodeRahman" target="_blank"><img src="github.png" id="github" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
-                </div>
-                <div>
-                    <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank"><img src="stack.png" id="stack" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a> 
-                </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/oyediranao/" target="_blank"><img src="linkedin.png" id="linkedin" onmouseover="bigImg(this)" onmouseout="normalImg(this)"> </a>
-                </div>
-                <div>
-                    <a href="https://dev.to/coderahman" target="_blank"><img src="dev.jpg" id="dev" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
-                </div>
-            </section>
-            <p>&copy; 2024 CodeRahman</p>
-        </footer>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="main-logo.jpeg">
+        <title>CodeRahman | Rahman Zone</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="top">
+                <nav>
+                    <ul id="pages">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resume.pdf" target="_blank">Resume</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-    <script>
-        function colorText(x) {
-          x.style.color = "red";
-        }
-        
-        function uncolorText(x) {
-          x.style.color = "black";
-        }
-
-        function bigImg(x) {
-            x.style.width = "75px";
-        }
-        
-        function normalImg(x) {
-          x.style.width = "30px";
-        }
-    </script>
-    
-
-    <script src="scripts.js">
-
-    </script>
-</body>
+            <main>
+                <section id="about">
+                    <img src="photo1.jpg" id="profileimg">
+                    <h1>Abdurrahman Oyediran</h1>
+                    <p id="description">Student, Software Engineer, Hacker</p>
+                    <div onmouseover="colorText(this)" onmouseout="uncolorText(this)">
+                        <p id="describe">
+                            Hi there! My name is Abdurrahman. 
+                            I am a Computer Science student 
+                            at the University of Southern Mississippi. 
+                            In my free time, I enjoy gaming, exploring 
+                            and reading novels!
+                        </p>       
+                    </div>
+                </section>
+            </main>
+            
+            <footer>
+                <section id="social">
+                    <div>
+                    <a href="https://www.instagram.com/chief_rahman/" target="_blank">
+                        <img src="insta.png" id="insta">
+                    </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/CodeRahman" target="_blank">
+                            <img src="github.png" id="github">
+                        </a> 
+                    </div>
+                    <div>
+                        <a href="https://stackoverflow.com/users/26550476/coderahman" target="_blank">
+                            <img src="stack.png" id="stack">
+                        </a> 
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/oyediranao/" target="_blank">
+                            <img src="linkedin.png" id="linkedin">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://dev.to/coderahman" target="_blank">
+                            <img src="dev.jpg" id="dev">
+                        </a>
+                    </div>
+                </section>
+                <p>&copy; 2024 CodeRahman</p>
+            </footer>
+        </div>
+    </body>
 </html>
