@@ -1,3 +1,4 @@
+/*Base page styles*/
 *,
 *:before,
 *:after {
@@ -11,11 +12,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
-    
+    color: #333;   
 }
-
-header {
+#top {
     background-color: #333;
     color: white;
     position: fixed;
@@ -23,30 +22,27 @@ header {
     text-align: center;
     width: 100%;
 }
-
-header nav ul {
+#top nav ul {
     list-style: none;
     padding: 0;
 }
-
-header nav ul li {
+#top nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
-header nav ul li a {
+#top nav ul li a {
     color: white;
     text-decoration: none;
+}
+main{
+    margin-top: 60px;
 }
 #social{
     background-color: #333;
     color: white;
     margin: 0 0 0 0;
-    
     text-align: center;
     width: 100%;
-    
-    
 }
 #social div{
     display: inline-block;
@@ -56,10 +52,36 @@ header nav ul li a {
     margin-left: 20px;
     margin-right: 20px;
 }
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
 
-section {
-    padding: 20px;
-    margin: 20px;
+
+/*Home page styles*/
+
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 788px;
+    width: 70%;
+}
+#profileimg{
+    width: 40%;
+    height: auto;
+    /*float: right;*/
+    border-radius: 50%;
 }
 #description{
     font-size: xx-large;
@@ -69,113 +91,47 @@ section {
     width: 80%;
     font-size: x-large;
 }
-#profileimg{
-    width: 40%;
-    height: auto;
-    /*float: right;*/
-    border-radius: 50%;
-}
-#about{
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 788px;
-    width: 70%;
-}
-
-#projects .project {
-    margin-bottom: 20px;
-}
-
-form label, form input, form textarea {
-    display: block;
-    margin: 10px 0;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-}
-
-form button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
 
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    
-    bottom: 0;
-    width: 100%;
-}
-.project-card{
-    background-color: white;
-    max-width: 250px;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
+/*About page styles*/
 
 .aboutme{
     font-size: large;
     margin-bottom: 20px;
-    
-    
-}
-.projectname{
-    margin-top: 50px;
-}
-.wrapper {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
 }
 
-.project-card:hover {
+
+/*Project page styles*/
+
+#projects{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.projectlink{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+.projectlink:hover {
     border-color: #007BFF; 
     box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3); 
-  }
-#projects{
-    display: grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
-
-
-.img {
+.projimg {
     width: 100%;
     border-radius: 10px;
 }
-
 .category{
     background-color: hsl(162, 76%, 39%);
     border-radius: 2px;
     width: fit-content;
 }
-h4{
-    margin: 3px;
-}
-p{
-    font-size: 14px;
-}
 .name{
     font-weight: 800;
 }
 
-.descrip{
-    color: hsl(0, 0%, 42%);
-}
 
-.projectlink{
-    text-decoration: none;
-    color: black;
-}
+

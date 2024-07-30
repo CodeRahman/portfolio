@@ -11,7 +11,7 @@
     <div class="wrapper">
         <header id="top">
             <nav>
-                <ul>
+                <ul id="pages">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="resume.pdf" target="_blank">Resume</a></li>
@@ -21,84 +21,37 @@
             </nav>
         </header>
 
-        <div class="projectname">
-            <h2>Projects</h2>
-            <p>Here is some of the work I have done as a student and web developer</p>
-        </div>
-        
-        <section id="projects">
+        <main>
+            <div class="projectname">
+                <h2>Projects</h2>
+                <p>Here is some of the work I have done as a student and web developer</p>
+            </div>
             
-            <button class="project-card">
+            <section id="projects">
                 <a href="https://coderahman.github.io/tasklist/" class="projectlink" target="_blank">
-                <img src="dispic1.jpeg" width="100%" class="img">
-                <div>
+                    <img src="dispic1.jpeg" width="100%" class="projimg">
                     <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Task List Webpage</h3>
-                    <p>This is a webpage for creating tasks. 
-                        Individuals can use it to make a list of tasks they want to perform 
-                        and cross the tasks out as they complete them. It was made with HTML, 
-                        CSS and JavaScript.</p>
+                    <h3 class="name">Task List Webpage</h3>   
                 </a>
-                </div>
-            </button>  
-        
-        
-            <button class="project-card">
                 <a href="https://coderahman.github.io/memegeneratorchallenge/" class="projectlink" target="_blank">
-                <img src="dispic2.jpeg" width="100%" class="img">
-                <div>
+                    <img src="dispic2.jpeg" width="100%" class="projimg">
                     <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Meme Generator Challenge</h3>
-                    <p>This is a website where memes, jokes, riddles and quotes can be viewed. 
-                        This website is a challenge as part of a web development course to learn JavaScript and HTML with CSS prewritten.</p>
-                </a>
-                </div>
-            </button>  
-        
-        
-            <button class="project-card">
+                    <h3 class="name">Meme Generator Challenge</h3> 
+                </a>   
                 <a href="https://coderahman.github.io/sociallinkspage/" class="projectlink" target="_blank">
-                <img src="dispic3.jpeg" width="100%" class="img">
-                <div>
+                    <img src="dispic3.jpeg" width="100%" class="projimg">
                     <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Social Links Page</h3>
-                    <p>This is a social links page that utilizes HTML and CSS</p>
-                    
+                    <h3 class="name">Social Links Page</h3>  
                 </a>
-                </div>
-            </button>  
-        
-        
-            <button class="project-card">
-                <a href="https://coderahman.github.io/recipenew/" class="projectlink" target="_blank">
-                <img src="dispic4.jpeg" width="100%" class="img">
-                <div>
-                    <div class="category"><h4>Category: Webpage</h4></div>
-                    <h3 class="name">Recipe Webpage</h3>
-                    <p>This is a webpage for a simple recipe. 
-                        It shows the steps taken to make an omelette and includes the preparation time, 
-                        ingredients, instructions as well as the nutritional value.
-                        It was made with HTML and CSS.</p>
-                </a>
-                </div>
-            </button>  
-
-            <button class="project-card">
                 <a href="https://coderahman.github.io/blogpreviewcard/" class="projectlink" target="_blank">
-                <img src="dispic5.png" width="100%" class="img">
-                <div>
+                    <img src="dispic5.png" width="100%" class="projimg">
                     <div class="category"><h4>Category: Webpage</h4></div>
                     <h3 class="name">Blog Preview</h3>
-                    
                 </a>
-                </div>
-            </button> 
+            </section>
+        </main>
         
-            
-        
-            
-            
-        </section>
+
         <footer>
             <section id="social">
                 <div >
@@ -117,10 +70,8 @@
                     <a href="https://dev.to/coderahman" target="_blank"><img src="dev.jpg" id="dev" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></a>
                  </div>
             </section>
-            
-            
-                <p>&copy; 2024 CodeRahman</p>
-            </footer>
+            <p>&copy; 2024 CodeRahman</p>
+        </footer>
     </div>
 
     <script>
