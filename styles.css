@@ -11,11 +11,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;   
+    color: #f4f4f4;;   
+    background-image: url(background.jpg);
 }
 #top {
-    background-color: #333;
     color: white;
     position: fixed;
     padding: 10px 0;
@@ -39,7 +38,6 @@ main{
     margin-top: 60px;
 }
 #social{
-    background-color: #333;
     color: white;
     margin: 0 0 0 0;
     text-align: center;
@@ -102,7 +100,14 @@ footer {
     font-size: large;
     margin-bottom: 20px;
 }
-
+#email{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+#email:hover{
+    color:  red;
+    text-decoration: underline;
+}
 
 /*Project page styles*/
 
@@ -122,7 +127,7 @@ footer {
     grid-gap: 4rem;
 }
 .projectlink{
-    background-color: white;
+    background-color: rgb(227, 45, 227);
     padding: 10px;
     margin: 10px;
     text-decoration: none;
