@@ -11,8 +11,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #f4f4f4;;   
-    background-image: url(background.jpg);
+    background-color: #f4f4f4;
+    color: #333;
 }
 #top {
     color: white;
@@ -20,6 +20,7 @@ body {
     padding: 10px 0;
     text-align: center;
     width: 100%;
+    background-color: #333;
 }
 #top nav ul {
     list-style: none;
@@ -101,7 +102,7 @@ footer {
     margin-bottom: 20px;
 }
 #email{
-    color: #f4f4f4;
+    color: #007BFF;
     text-decoration: none;
 }
 #email:hover{
@@ -118,7 +119,7 @@ footer {
     margin-bottom: 20px;
 }
 #projects{
-    max-width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -127,7 +128,7 @@ footer {
     grid-gap: 4rem;
 }
 .projectlink{
-    background-color: rgb(227, 45, 227);
+    background-color: rgb(225, 219, 225);
     padding: 10px;
     margin: 10px;
     text-decoration: none;
