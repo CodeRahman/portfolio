@@ -35,4 +35,7 @@ Home, About and Projects are written in HTML while Resume is a pdf file.
 
 ### Contact
 
+LinkedIn: https://www.linkedin.com/in/oyediranao/
+Email: oyediranabdurrahman@gmail.com
+
 ## Acknowledgements
