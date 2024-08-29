@@ -10,7 +10,7 @@
 
 ## Overview
 
-![alt text](dispic6.png)
+![alt text](images/dispic6.png)
 
 This is a website for my personal potfolio. The purpose is to showcase my web development skills and allow the public to view my projects. This project is a continuous one and I will continue updating it as I learn new things and create new projects.
 
