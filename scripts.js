@@ -47,9 +47,36 @@ function filterhtmlcssOnly() {
     deleteChildElements(projects);
 
     // use filter() to get a list of games that have not yet met their goal
-    const unfundedGames = GAMES_JSON.filter(game => game.pledged < game.goal);
-    console.log(unfundedGames.length);
+    const htmlcssproj = PROJECT_JSON.filter(project => project.category == "HTML, CSS");
+    console.log(htmlcssproj.length);
 
     // use the function we previously created to add the unfunded games to the DOM
-    addProjects(unfundedGames);
+    addProjects(htmlcssproj);
 }
+
+function filterhtmlcssjs() {
+    deleteChildElements(projects);
+
+    // use filter() to get a list of games that have not yet met their goal
+    const htmlcssjsproj = PROJECT_JSON.filter(project => project.category == "HTML, CSS, JS");
+    console.log(htmlcssjsproj.length);
+
+    // use the function we previously created to add the unfunded games to the DOM
+    addProjects(htmlcssjsproj);
+}
+
+function showAllProj() {
+    deleteChildElements(projects);
+
+    // add all games from the JSON data to the DOM
+    addProjects(PROJECT_JSON);
+}
+
+const htmlcssBtn = document.getElementById("html-css");
+const htmlscssjsBtn = document.getElementById("html-css-js");
+const allBtn = document.getElementById("all-btn");
+
+// add event listeners with the correct functions to each button
+htmlcssBtn.addEventListener("click", filterhtmlcssOnly);
+htmlscssjsBtn.addEventListener("click", filterhtmlcssjs);
+allBtn.addEventListener("click", showAllProj);
