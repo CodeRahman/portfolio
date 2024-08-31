@@ -34,6 +34,12 @@ const projects = ` [
       "name": "Single Price",
       "category": "HTML, CSS, JS",
       "img": "images/dispic7.png"
+    },
+    {
+      "link": "https://coderahman.github.io/singlepricecomp/",
+      "name": "Single Price",
+      "category": "HTML, CSS, JS",
+      "img": "images/dispic7.png"
     }
   ]
   `
