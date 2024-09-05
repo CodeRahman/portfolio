@@ -1,4 +1,8 @@
+
+
 import PROJECT_DATA from './project.js';
+
+
 
 const PROJECT_JSON = JSON.parse(PROJECT_DATA)
 
@@ -74,3 +78,7 @@ const allBtn = document.getElementById("all-btn");
 htmlcssBtn.addEventListener("click", filterhtmlcssOnly);
 htmlscssjsBtn.addEventListener("click", filterhtmlcssjs);
 allBtn.addEventListener("click", showAllProj);
+
+
+
+

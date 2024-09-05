@@ -23,20 +23,18 @@
             </header>
 
             <main>
-                <section id="about">
-                    <img src="images/photo1.jpg" id="profileimg">
-                    <h1>Abdurrahman Oyediran</h1>
-                    <p id="description">Student, Web Developer</p>
-                    <div>
-                        <p id="describe">
-                            Hi there! My name is Abdurrahman. 
-                            I am a Computer Science student 
-                            at the University of Southern Mississippi. 
-                            In my free time, I enjoy gaming, exploring 
-                            and reading novels!
-                        </p>       
-                    </div>
-                </section>
+                <div class="container">
+                    <h1 class="formheader">Get in touch</h1>
+                    <form target="_blank" action="https://formsubmit.co/oyediranabdurrahman@gmail.com" method="POST">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                        <label for="message">Message: </label>
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                    </form>
+                </div>
             </main>
             
             <footer>

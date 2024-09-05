@@ -36,10 +36,10 @@ const projects = ` [
       "img": "images/dispic7.png"
     },
     {
-      "link": "https://coderahman.github.io/singlepricecomp/",
-      "name": "Single Price",
+      "link": "https://coderahman.github.io/web102_prework/",
+      "name": "CodePath PreWork",
       "category": "HTML, CSS, JS",
-      "img": "images/dispic7.png"
+      "img": "images/dispic8.png"
     }
   ]
   `

@@ -190,3 +190,18 @@ button:hover{
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3);
 }
+
+.formheader {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+  
+  form{
+    display: block;
+    width: 95%;
+    padding: 5%;
+  }
+
+  label, input, textarea{
+    width: 100%;
+  }
