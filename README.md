@@ -20,16 +20,19 @@ This project employed the following technologies
 
 * HTML5
 * CSS3
+* JavaScript
 * GitHub
 
 ### Features
 
-This website contains 4 pages
+This website contains 6 pages
 
 * Home
 * About
 * Resume
 * Projects
+* Experience
+* Contact
 
 Home, About and Projects are written in HTML while Resume is a pdf file.
 
