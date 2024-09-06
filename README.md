@@ -31,7 +31,6 @@ This website contains 6 pages
 * About
 * Resume
 * Projects
-* Experience
 * Contact
 
 Home, About and Projects are written in HTML while Resume is a pdf file.
