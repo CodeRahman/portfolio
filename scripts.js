@@ -2,9 +2,8 @@
 
 import PROJECT_DATA from './project.js';
 
-
-
 const PROJECT_JSON = JSON.parse(PROJECT_DATA)
+
 
 function deleteChildElements(parent) {
     while (parent.firstChild) {
@@ -40,7 +39,6 @@ function addProjects(projects) {
 addProjects(PROJECT_JSON)
 
 
-
 function filterhtmlcssOnly() {
     deleteChildElements(projects);
 
@@ -73,6 +71,7 @@ function showAllProj() {
 const htmlcssBtn = document.getElementById("html-css");
 const htmlscssjsBtn = document.getElementById("html-css-js");
 const allBtn = document.getElementById("all-btn");
+
 
 
 htmlcssBtn.addEventListener("click", filterhtmlcssOnly);
