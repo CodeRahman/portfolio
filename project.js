@@ -40,6 +40,12 @@ const projects = ` [
       "name": "CodePath PreWork",
       "category": "HTML, CSS, JS",
       "img": "images/dispic8.png"
+    },
+    {
+      "link": "https://tiny-naiad-60b056.netlify.app/",
+      "name": "Southern Miss Games",
+      "category": "React",
+      "img": "images/dispic9.png"
     }
   ]
   `
