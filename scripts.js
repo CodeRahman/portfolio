@@ -65,7 +65,7 @@ function filterREACT() {
     deleteChildElements(projects);
 
     
-    const react = PROJECT_JSON.filter(project => project.category == "React");
+    const react = PROJECT_JSON.filter(project => project.category == "REACT");
     console.log(react.length);
 
     

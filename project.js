@@ -44,7 +44,7 @@ const projects = ` [
     {
       "link": "https://southernmissgames.netlify.app/",
       "name": "Southern Miss Games",
-      "category": "React",
+      "category": "REACT",
       "img": "images/dispic9.png"
     }
   ]
