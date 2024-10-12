@@ -61,6 +61,17 @@ function filterhtmlcssjs() {
     addProjects(htmlcssjsproj);
 }
 
+function filterREACT() {
+    deleteChildElements(projects);
+
+    
+    const react = PROJECT_JSON.filter(project => project.category == "React");
+    console.log(react.length);
+
+    
+    addProjects(react);
+}
+
 function showAllProj() {
     deleteChildElements(projects);
 
@@ -70,12 +81,14 @@ function showAllProj() {
 
 const htmlcssBtn = document.getElementById("html-css");
 const htmlscssjsBtn = document.getElementById("html-css-js");
+const reactBtn = document.getElementById("react");
 const allBtn = document.getElementById("all-btn");
 
 
 
 htmlcssBtn.addEventListener("click", filterhtmlcssOnly);
 htmlscssjsBtn.addEventListener("click", filterhtmlcssjs);
+reactBtn.addEventListener("click", filterREACT);
 allBtn.addEventListener("click", showAllProj);
 
 
