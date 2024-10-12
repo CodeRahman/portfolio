@@ -1,6 +1,6 @@
 const projects = ` [
     {
-      "link": "https://coderahman.github.io/portfolio/",
+      "link": "https://abdurrahmanoyediran.netlify.app",
       "name": "Portfolio Website",
       "category": "HTML, CSS, JS",
       "img": "images/dispic6.png"
