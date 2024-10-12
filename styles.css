@@ -157,7 +157,6 @@ button:hover{
     border-radius: 10px;
 }
 .category{
-    background-color: hsl(162, 76%, 39%);
     border-radius: 2px;
     width: fit-content;
 }
