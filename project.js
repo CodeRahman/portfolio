@@ -46,6 +46,12 @@ const projects = ` [
       "name": "Southern Miss Games",
       "category": "REACT",
       "img": "images/dispic9.png"
+    },
+    {
+      "link": "https://footballflashcards.netlify.app/",
+      "name": "Football Flashcards",
+      "category": "REACT",
+      "img": "images/dispic10.png"
     }
   ]
   `
