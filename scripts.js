@@ -25,7 +25,6 @@ function addProjects(projects) {
         projectCard.innerHTML = `
         <a href="${project.link}" class="projectlink" target="_blank">
             <img src="${project.img}" width="100%" class="projimg" alt="${project.name} image">
-            <div class="category"><h4>${project.category}</h4></div>
             <h3 class="name">${project.name}</h3>
         </a>
     `;

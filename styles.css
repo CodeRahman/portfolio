@@ -156,10 +156,7 @@ button:hover{
     width: 100%;
     border-radius: 10px;
 }
-.category{
-    border-radius: 2px;
-    width: fit-content;
-}
+
 .name{
     font-weight: 800;
 }
