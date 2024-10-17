@@ -52,6 +52,12 @@ const projects = ` [
       "name": "Football Flashcards",
       "category": "REACT",
       "img": "images/dispic10.png"
+    },
+    {
+      "link": "https://nasaastronomy.netlify.app/",
+      "name": "NASA Astronomy Pictures",
+      "category": "REACT",
+      "img": "images/dispic11.png"
     }
   ]
   `
