@@ -54,7 +54,7 @@ const projects = ` [
       "img": "images/dispic10.png"
     },
     {
-      "link": "https://nasaastronomy.netlify.app/",
+      "link": "https://nasaastronomypictures.netlify.app/",
       "name": "NASA Astronomy Pictures",
       "category": "REACT",
       "img": "images/dispic11.png"
