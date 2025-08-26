@@ -58,6 +58,12 @@ const projects = ` [
       "name": "NASA Astronomy Pictures",
       "category": "REACT",
       "img": "images/dispic11.png"
+    },
+    {
+      "link": "https://nasaastronomypictures.netlify.app/",
+      "name": "FootyHub",
+      "category": "REACT",
+      "img": "images/dispic11.png"
     }
   ]
   `
