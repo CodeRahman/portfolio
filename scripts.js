@@ -60,3 +60,36 @@ requestAnimationFrame(() => requestAnimationFrame(() => {
 }));
 });
 
+const form = document.getElementById("contact-form");
+
+if (form) {
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const response = await fetch("https://formspree.io/f/xnjreqbw", {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json"
+      }
+    });
+
+    if (response.ok) {
+    form.reset();
+
+    const button = form.querySelector("button");
+
+    button.textContent = "Message Sent ✓";
+    button.style.backgroundColor = "var(--green)";
+    button.style.color = "#fff";
+
+    setTimeout(() => {
+        button.textContent = "Send Message →";
+        button.style.backgroundColor = "";
+        button.style.color = "";
+    }, 3000);
+    } else {
+        alert("Failed to send message. Please try again.");
+    }
+  });
+}
